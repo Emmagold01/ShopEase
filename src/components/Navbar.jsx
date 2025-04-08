@@ -56,7 +56,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`menu ${
+        className={`${
           isOpen ? '' : 'hidden'
         } fixed inset-0 z-20 flex flex-col justify-center items-center py-1 font-display text-white text-xl bg-white opacity-90 divide-y divide-gray-500 uppercase`}
       >
